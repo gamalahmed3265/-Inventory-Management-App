@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import Loader from "../../components/loader/Loader";
-import ProductForm from "../../components/productForm/ProductForm";
+import ProductForm from "../../components/product/productForm/ProductForm";
 import {
   createProduct,
   selectIsLoading,
@@ -50,7 +50,7 @@ const AddProduct = () => {
     formData.append("name", name);
     formData.append("sku", generateKSKU(category));
     formData.append("category", category);
-    formData.append("quantity", quantity);
+    formData.append("quantity", Number(quantity));
     formData.append("price", price);
     formData.append("description", description);
     formData.append("image", productImage);
