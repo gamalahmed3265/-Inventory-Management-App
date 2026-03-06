@@ -23,8 +23,12 @@ const Forgot = () => {
       email,
     };
 
-    await forgotPassword(userData);
-    setEmail("");
+    try {
+      await forgotPassword(userData);
+      setEmail("");
+    } catch (error) {
+      // Error handled by authService
+    }
   };
 
   return (

@@ -10,7 +10,11 @@ const Header = () => {
   const name = useSelector(selectName);
 
   const logout = async () => {
-    await logoutUser();
+    try {
+      await logoutUser();
+    } catch (error) {
+      // Allow logout to proceed locally even if backend API fails
+    }
     await dispatch(SET_LOGIN(false));
     navigate("/login");
   };

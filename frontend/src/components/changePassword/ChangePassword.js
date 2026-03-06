@@ -33,9 +33,13 @@ const ChangePassword = () => {
       password,
     };
 
-    const data = await changePassword(formData);
-    toast.success(data);
-    navigate("/profile");
+    try {
+      const data = await changePassword(formData);
+      toast.success(data);
+      navigate("/profile");
+    } catch (error) {
+      // Error handled by authService
+    }
   };
 
   return (

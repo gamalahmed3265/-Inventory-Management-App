@@ -19,13 +19,17 @@ const Profile = () => {
     console.log("Getting use");
     setIsLoading(true);
     async function getUserData() {
-      const data = await getUser();
-      console.log(data);
+      try {
+        const data = await getUser();
+        console.log(data);
 
-      setProfile(data);
-      setIsLoading(false);
-      await dispatch(SET_USER(data));
-      await dispatch(SET_NAME(data.name));
+        setProfile(data);
+        setIsLoading(false);
+        await dispatch(SET_USER(data));
+        await dispatch(SET_NAME(data.name));
+      } catch (error) {
+        setIsLoading(false);
+      }
     }
     getUserData();
   }, [dispatch]);
