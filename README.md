@@ -36,13 +36,59 @@ A comprehensive full-stack Inventory Management Application built using the MERN
 
 Here are previews of the application in action:
 
-- **Login Screen**: `screen/screencapture-localhost-3000-login-2026-03-06-21_41_20.png`
-- **Registration**: `screen/screencapture-localhost-3000-register-2026-03-06-21_40_22.png`
-- **Dashboard Overview**: `screen/screencapture-localhost-3000-dashboard-2026-03-06-21_42_31.png`
-- **Add Product**: `screen/screencapture-localhost-3000-add-product-2026-03-06-21_43_23.png`
-- **Profile View**: `screen/screencapture-localhost-3000-profile-2026-03-06-21_42_59.png`
-- **Edit Profile**: `screen/screencapture-localhost-3000-edit-profile-2026-03-06-21_43_10.png`
+<div align="center">
 
+<table>
+<tr>
+<td align="center" width="33%">
+
+### 🔐 Login Screen
+
+<img src="screen/screencapture-localhost-3000-login-2026-03-06-21_41_20.png" width="100%" />
+
+</td>
+<td align="center" width="33%">
+
+### 📝 Registration
+
+<img src="screen/screencapture-localhost-3000-register-2026-03-06-21_40_22.png" width="100%" />
+
+</td>
+<td align="center" width="33%">
+
+### 📊 Dashboard Overview
+
+<img src="screen/screencapture-localhost-3000-dashboard-2026-03-06-21_42_31.png" width="100%" />
+
+</td>
+</tr>
+
+<tr>
+<td align="center" width="33%">
+
+### ➕ Add Product
+
+<img src="screen/screencapture-localhost-3000-add-product-2026-03-06-21_43_23.png" width="100%" />
+
+</td>
+<td align="center" width="33%">
+
+### 👤 Profile View
+
+<img src="screen/screencapture-localhost-3000-profile-2026-03-06-21_42_59.png" width="100%" />
+
+</td>
+<td align="center" width="33%">
+
+### ✏️ Edit Profile
+
+<img src="screen/screencapture-localhost-3000-edit-profile-2026-03-06-21_43_10.png" width="100%" />
+
+</td>
+</tr>
+</table>
+
+</div>
 ## Getting Started
 
 ### Prerequisites
